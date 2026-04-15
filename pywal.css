@@ -2,6 +2,24 @@
 
 /*pywal themeing*/
 @import "~/.cache/wal/colors.css"
+
+    /* Colors */
+    --color0: #1e170c;
+    --color1: #D4AE61;
+    --color2: #2A8089;
+    --color3: #B7A699;
+    --color4: #C8B3A3;
+    --color5: #F1DE9C;
+    --color6: #FDFAB0;
+    --color7: #c6c5c2;
+    --color8: #70695c;
+    --color9: #D4AE61;
+    --color10: #2A8089;
+    --color11: #B7A699;
+    --color12: #C8B3A3;
+    --color13: #F1DE9C;
+    --color14: #FDFAB0;
+    --color15: #c6c5c2;
     
     --tridactyl-fg: var(--color5);
     --tridactyl-bg: var(--color0);
