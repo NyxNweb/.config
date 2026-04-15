@@ -1,31 +1,18 @@
 :root {    /* Unikitty-dark by Chris Kempson (http://chriskempson.com) */
-    --base00: #2e2a31;
-    --base01: #4a464d;
-    --base02: #666369;
-    --base03: #838085;
-    --base04: #9f9da2;
-    --base05: #bcbabe;
-    --base06: #d8d7da;
-    --base07: #f5f4f7;
-    --base08: #d8137f;
-    --base09: #d65407;
-    --base0A: #dc8a0e;
-    --base0B: #17ad98;
-    --base0C: #149bda;
-    --base0D: #796af5;
-    --base0E: #bb60ea;
-    --base0F: #c720ca;
 
-    --tridactyl-fg: var(--base05);
-    --tridactyl-bg: var(--base00);
-    --tridactyl-url-fg: var(--base08);
-    --tridactyl-url-bg: var(--base00);
-    --tridactyl-highlight-box-bg: var(--base0B);
-    --tridactyl-highlight-box-fg: var(--base00);
+/*pywal themeing*/
+@import "~/.cache/wal/colors.css"
+    
+    --tridactyl-fg: var(--color5);
+    --tridactyl-bg: var(--color0);
+    --tridactyl-url-fg: var(--color8);
+    --tridactyl-url-bg: var(--color0);
+    --tridactyl-highlight-box-bg: var(--color11);
+    --tridactyl-highlight-box-fg: var(--color0);
 
     /* Hint character tags */
-    --tridactyl-hintspan-fg: var(--base00) !important;
-    --tridactyl-hintspan-bg: var(--base0A) !important;
+    --tridactyl-hintspan-fg: var(--color0) !important;
+    --tridactyl-hintspan-bg: var(--color10) !important;
 
     /* Element Highlights */
     --tridactyl-hint-active-fg: none;
@@ -36,7 +23,7 @@
 }
 
 #command-line-holder {    order: 1;
-    border: 2px solid var(--base0B);
+    border: 2px solid var(--color11);
     color: var(--tridactyl-bg);
 }
 
@@ -131,14 +118,14 @@
     bottom: 0 !important;
     background: var(--tridactyl-bg) !important;
     border: unset !important;
-    border: 1px var(--base0B) solid !important;
+    border: 1px var(--color11) solid !important;
     font-size: 12pt !important;
     /*font-weight: 200 !important;*/
     padding: 0.8ex !important;
 }
 
 #completions .focused {    background: var(--base0B);
-    color: var(--base00);
+    color: var(--color0);
 }
 
 #completions .focused .url {    background: var(--base0B);
